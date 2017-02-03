@@ -113,7 +113,7 @@
       params["UploadSessionID1"] = $$(".uploadSessionID1")[0].value;
     }
         
-    this.yUploader.upload(this.file, this.destination, params);
+    this.yUploader.upload(this.file, this.destination, params); //fix 145832, initial this.yUploader.upload(this.file, this.destination,"POST", params);
   },
   
   uploadStart: function() {
