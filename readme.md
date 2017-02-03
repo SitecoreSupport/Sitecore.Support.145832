@@ -1,5 +1,5 @@
 # Sitecore.Support.145832
-This patch makes Sitecore considering the setting Upload.SimpleUploadOverwriting when the upload is initiated from the ribbon or context menu
+There is an issue during the upload media files with the same names from the ribbon and context menu. Even if the setting Upload.SimpleUploadOverwriting is true, the files with the same names are not replaced. This patch resolves this issue.
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.145832/blob/master/LICENSE).  
